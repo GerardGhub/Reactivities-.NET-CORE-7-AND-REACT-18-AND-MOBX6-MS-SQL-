@@ -59,3 +59,5 @@ D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Humanizer.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\MediatR.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\AutoMapper.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

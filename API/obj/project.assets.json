@@ -1641,11 +1641,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\API.csproj",
+      "projectUniqueName": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\API.csproj",
+      "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\API.csproj",
       "packagesPath": "C:\\Users\\gsingian\\.nuget\\packages\\",
-      "outputPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\obj\\",
+      "outputPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1662,14 +1662,15 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj": {
-              "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj"
+            "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj": {
+              "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj"
             }
           }
         }

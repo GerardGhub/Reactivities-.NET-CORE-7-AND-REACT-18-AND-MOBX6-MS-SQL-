@@ -1367,11 +1367,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj",
+      "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\gsingian\\.nuget\\packages\\",
-      "outputPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\obj\\",
+      "outputPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1388,6 +1388,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1397,8 +1398,8 @@
             "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
               "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
             },
-            "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj"
+            "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }
