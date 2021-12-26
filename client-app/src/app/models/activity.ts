@@ -1,4 +1,4 @@
- export interface Actitvity {
+ export interface Activity {
         id: string;
         title: string;
         date: string;
