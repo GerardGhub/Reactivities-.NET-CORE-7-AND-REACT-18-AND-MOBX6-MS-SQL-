@@ -22,22 +22,7 @@ function App() {
 activityStore.loadActivities();
   }, [activityStore])
 
-  function handleSelectActivity(id: string) {
-    setSelectedActivity(activities.find(x => x.id === id))
-  }
-
-  function handleCancelSelectActivity() {
-    setSelectedActivity(undefined);
-  }
-
-  function handleFormOpen(id?: string) {
-    id ? handleSelectActivity(id) : handleCancelSelectActivity();
-    setEditMode(true);
-  }
-
-  function handleFormClose() {
-    setEditMode(false);
-  }
+ 
 
   function handleCreateOrEditActivity(activity: Activity) {
     setSubmitting(true);
@@ -74,18 +59,12 @@ if (activityStore.loadingInitial) return <LoadingComponent content = 'Loading ap
 
   return (
     <>
-      <NavBar openForm={handleFormOpen} />
+      <NavBar/>
       <Container style={{ marginTop: '7em' }}>
         {/* <h2>{activityStore.title}</h2>
         <Button content='Add exclamation!' positive onClick={activityStore.setTitle} /> */}
         <ActivityDashboard
           activities={activityStore.activities}
-          selectedActivity={selectedActivity}
-          selectActivity={handleSelectActivity}
-          cancelSelectActivity={handleCancelSelectActivity}
-          editMode={editMode}
-          openForm={handleFormOpen}
-          closeForm={handleFormClose}
           createOrEdit={handleCreateOrEditActivity}
           deleteActivity={handleDeleteActivity}
           submitting={submitting}
