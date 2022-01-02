@@ -9,16 +9,24 @@ import ActivityForm from '../../features/activities/form/ActivityForm';
 import ActivityDetails from '../../features/activities/details/ActivityDetails';
 
 function App() {
-const location = useLocation();
+  const location = useLocation();
   return (
     <>
-      <NavBar />
-      <Container style={{ marginTop: '7em' }}>
-        <Route exact path='/' component={HomePage} />
-        <Route exact path='/activities' component={ActivityDashboard} />
-        <Route path='/activities/:id' component={ActivityDetails} />
-        <Route key={location.key} path={['/createActivity', '/manage/:id']} component={ActivityForm} />
-      </Container>
+      <Route exact path='/' component={HomePage} />
+
+      <Route
+        path={'/(.+)'}
+        render={() => (
+          <>
+            <NavBar />
+            <Container style={{ marginTop: '7em' }}>
+              <Route exact path='/activities' component={ActivityDashboard} />
+              <Route path='/activities/:id' component={ActivityDetails} />
+              <Route key={location.key} path={['/createActivity', '/manage/:id']} component={ActivityForm} />
+            </Container>
+          </>
+        )}
+      />
     </>
   );
 }
