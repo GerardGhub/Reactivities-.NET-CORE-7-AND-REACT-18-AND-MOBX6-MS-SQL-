@@ -4,14 +4,14 @@
     "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
+    "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\gsingian\\.nuget\\packages\\",
-        "outputPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\obj\\",
+        "outputPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -96,8 +96,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
+              "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }

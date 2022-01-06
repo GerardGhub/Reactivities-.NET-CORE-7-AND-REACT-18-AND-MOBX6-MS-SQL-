@@ -61,3 +61,6 @@ D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\MediatR.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\AutoMapper.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\FluentValidation.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
