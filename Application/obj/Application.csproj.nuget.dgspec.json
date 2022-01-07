@@ -35,8 +35,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
               },
               "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj": {
                 "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj"
@@ -86,14 +86,14 @@
         }
       }
     },
-    "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
+    "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\gsingian\\.nuget\\packages\\",
-        "outputPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\obj\\",
+        "outputPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -178,8 +178,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
+              "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }

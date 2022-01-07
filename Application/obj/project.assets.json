@@ -1491,8 +1491,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
+            "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
             },
             "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj": {
               "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj"
