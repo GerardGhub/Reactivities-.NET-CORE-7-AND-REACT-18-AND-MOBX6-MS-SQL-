@@ -42,3 +42,7 @@ background-color: #EAEAEA !important;
 }
 
 /*end home page styles*/
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
