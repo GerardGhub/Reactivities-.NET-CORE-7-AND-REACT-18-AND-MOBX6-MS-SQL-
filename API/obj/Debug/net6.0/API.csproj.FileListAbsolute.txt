@@ -64,3 +64,8 @@ D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\AutoMapper.Ex
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\FluentValidation.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
