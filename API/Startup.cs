@@ -29,7 +29,7 @@ namespace API
         public Startup(IConfiguration config)
         {
             _config = config;
-         
+
         }
 
 
@@ -38,12 +38,12 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers().AddFluentValidation(config => 
+            services.AddControllers().AddFluentValidation(config =>
             {
                 config.RegisterValidatorsFromAssemblyContaining<Create>();
             });
-          services.AddApplicationServices(_config);
-          services.AddIdentityServices(_config);
+            services.AddApplicationServices(_config);
+            services.AddIdentityServices(_config);
 
         }
 
@@ -55,7 +55,7 @@ namespace API
 
             if (env.IsDevelopment())
             {
-                
+
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPIv5 v1"));
             }
@@ -65,6 +65,7 @@ namespace API
             app.UseRouting();
             app.UseCors("CorsPolicy");
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

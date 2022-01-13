@@ -69,3 +69,10 @@ D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.Asp
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
