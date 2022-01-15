@@ -21,6 +21,7 @@ export default class UserStore {
             store.commonStore.setToken(user.token);
             runInAction(() => this.user = user);
             history.push('/activities');
+            store.modalStore.closeModal();
             console.log(user);
         } catch (error) {
             throw error;
