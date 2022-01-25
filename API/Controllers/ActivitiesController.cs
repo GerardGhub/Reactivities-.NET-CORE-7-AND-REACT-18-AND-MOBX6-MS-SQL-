@@ -5,7 +5,7 @@ using Application.Activities;
 
 namespace API.Controllers
 {
-   
+
     public class ActivitiesController : BaseApiController
     {
 
@@ -15,12 +15,12 @@ namespace API.Controllers
         {
             return HandleResult(await Mediator.Send(new List.Query()));
         }
-        
+
         // [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetActivity(Guid id)
         {
-       
+
             return HandleResult(await Mediator.Send(new Details.Query { Id = id }));
         }
 
@@ -42,5 +42,13 @@ namespace API.Controllers
         {
             return HandleResult(await Mediator.Send(new Delete.Command { Id = id }));
         }
+
+        [HttpPost("{id}/attend")]
+        public async Task<IActionResult> Attend(Guid id)
+        {
+            return HandleResult(await Mediator.Send(new UpdateAttendance.Command { Id = id }));
+        }
+
+
     }
 }
