@@ -24,7 +24,8 @@ export default function ActivityListItem({ activity }: Props) {
                 <Label attached='top' color='red' content='Cancelled' style={{textAlign: 'center'}} />
                 }
                 <Item.Group>
-                    <Item.Image size='tiny' circular src='/assets/user.png' />
+                    <Item>
+                    <Item.Image style={{marginBottom: 3}} size='tiny' circular src='/assets/user.png' />
                     <Item.Content>
                         <Item.Header as={Link} to={`/activities/${activity.id}`}>
                             {activity.title}
@@ -45,6 +46,7 @@ export default function ActivityListItem({ activity }: Props) {
                             </Item.Description>
                         )}
                     </Item.Content>
+                    </Item>
                 </Item.Group>
             </Segment>
             <Segment>
