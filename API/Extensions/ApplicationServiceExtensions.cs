@@ -42,7 +42,7 @@ namespace API.Extensions
             services.AddAutoMapper(typeof(MappingProfiles).Assembly);
             services.AddScoped<IUserAccessor, UserAccessor>();
             services.AddScoped<IPhotoAccessor, PhotoAccessor>();
-            services.Configure<CloudinarySetting>(config.GetSection("Cloudinary"));
+            services.Configure<CloudinarySettings>(config.GetSection("Cloudinary"));
 
             return services;
          }
