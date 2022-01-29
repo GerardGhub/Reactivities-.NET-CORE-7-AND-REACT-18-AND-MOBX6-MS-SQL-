@@ -29,21 +29,6 @@
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
-      "CloudinaryDotNet/1.17.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Html.Abstractions": "2.2.0",
-          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
-          "Microsoft.Extensions.WebEncoders": "5.0.3",
-          "Newtonsoft.Json": "12.0.3"
-        },
-        "compile": {
-          "lib/netstandard2.0/CloudinaryDotNet.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/CloudinaryDotNet.dll": {}
-        }
-      },
       "FluentValidation/10.3.6": {
         "type": "package",
         "compile": {
@@ -123,43 +108,6 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Text.Encodings.Web": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.AspNetCore.Http.Features": "2.2.0",
-          "System.Text.Encodings.Web": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {}
-        }
-      },
-      "Microsoft.AspNetCore.Http.Features/2.2.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Primitives": "2.2.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll": {}
         }
       },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.1": {
@@ -440,28 +388,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Microsoft.Extensions.WebEncoders/5.0.3": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Options": "5.0.0"
-        },
-        "compile": {
-          "lib/net5.0/Microsoft.Extensions.WebEncoders.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/Microsoft.Extensions.WebEncoders.dll": {}
-        }
-      },
-      "Newtonsoft.Json/12.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
         "type": "package",
         "dependencies": {
@@ -736,24 +662,6 @@
         "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
-    "CloudinaryDotNet/1.17.0": {
-      "sha512": "W0dkJ/oW1LruIHO1pGDUJPHhmqBHim5fTL1qZZD9OXyszMpo0hVnueO5OYeLj4OyrZB6RnH0oSKXde88IxIOoA==",
-      "type": "package",
-      "path": "cloudinarydotnet/1.17.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "CloudinaryIcon.png",
-        "cloudinarydotnet.1.17.0.nupkg.sha512",
-        "cloudinarydotnet.nuspec",
-        "lib/net452/CloudinaryDotNet.dll",
-        "lib/net452/CloudinaryDotNet.xml",
-        "lib/netstandard1.3/CloudinaryDotNet.dll",
-        "lib/netstandard1.3/CloudinaryDotNet.xml",
-        "lib/netstandard2.0/CloudinaryDotNet.dll",
-        "lib/netstandard2.0/CloudinaryDotNet.xml"
-      ]
-    },
     "FluentValidation/10.3.6": {
       "sha512": "iMd370ZDx6ydm8t7bIFdRbSKX0e42lpvCtifUSbTSXOk5iKjmgl7HU0PXBhIWQAyIRi3gCwfMI9luj8H6K+byw==",
       "type": "package",
@@ -878,45 +786,6 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
         "microsoft.aspnetcore.cryptography.keyderivation.6.0.1.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
-      "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.html.abstractions/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.xml",
-        "microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
-        "microsoft.aspnetcore.html.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
-      "sha512": "Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.xml",
-        "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
-        "microsoft.aspnetcore.http.abstractions.nuspec"
-      ]
-    },
-    "Microsoft.AspNetCore.Http.Features/2.2.0": {
-      "sha512": "ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
-      "type": "package",
-      "path": "microsoft.aspnetcore.http.features/2.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
-        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
-        "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
-        "microsoft.aspnetcore.http.features.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.1": {
@@ -1385,56 +1254,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.WebEncoders/5.0.3": {
-      "sha512": "NF5xPPZYJZNXIoHULq+hS6jIrkQt5X5qIMnH8Gz/uXsLVJCArrmP9ef5XuPkbCmTMepD+Ly8Qma+jwxqOPeHwQ==",
-      "type": "package",
-      "path": "microsoft.extensions.webencoders/5.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/Microsoft.Extensions.WebEncoders.dll",
-        "lib/net461/Microsoft.Extensions.WebEncoders.xml",
-        "lib/net5.0/Microsoft.Extensions.WebEncoders.dll",
-        "lib/net5.0/Microsoft.Extensions.WebEncoders.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.WebEncoders.xml",
-        "microsoft.extensions.webencoders.5.0.3.nupkg.sha512",
-        "microsoft.extensions.webencoders.nuspec"
-      ]
-    },
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
-      "type": "package",
-      "path": "newtonsoft.json/12.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
-      ]
-    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.6": {
       "sha512": "zssYqiaucyGArZfg74rJuzK0ewgZiidsRVrZTmP7JLNvK806gXg6PGA46XzoJGpNPPA5uRcumwvVp6YTYxtQ5w==",
       "type": "package",
@@ -1785,7 +1604,6 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
-      "CloudinaryDotNet >= 1.17.0",
       "Domain >= 1.0.0",
       "FluentValidation.AspNetCore >= 10.3.6",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
@@ -1801,11 +1619,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj",
+      "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\gsingian\\.nuget\\packages\\",
-      "outputPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\obj\\",
+      "outputPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1822,17 +1640,18 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
+            "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Domain\\Domain.csproj"
             },
-            "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj": {
-              "projectPath": "d:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj"
+            "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -1850,10 +1669,6 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.1, )"
-          },
-          "CloudinaryDotNet": {
-            "target": "Package",
-            "version": "[1.17.0, )"
           },
           "FluentValidation.AspNetCore": {
             "target": "Package",
