@@ -3,6 +3,7 @@ import { el } from "date-fns/locale";
 import { makeAutoObservable, runInAction } from "mobx";
 import agent from "../api/agent";
 import { Activity } from "../models/activity";
+import { Profile } from "../models/profile";
 import { store } from "./store";
 
 export default class ActivityStore {
@@ -162,8 +163,11 @@ export default class ActivityStore {
                         this.selectedActivity.attendees?.filter(a => a.username !== user?.username);
                     this.selectedActivity.isGoing = false;
                 } else {
-                    
+                    const attendee = new Profile(user!);
+                    this.selectedActivity?.attendees?.push(attendee);
+                    this.selectedActivity!.isGoing = true;
                 }
+                this.activityRegistry.set(this.selectedActivity!.id, this.selectedActivity!)
             })
         } catch (error) {
             console.log(error);
