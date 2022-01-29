@@ -8,7 +8,10 @@ import { Profile } from "./profile";
         category: string;
         city: string;
         venue: string;
-        hostUsernamne?: string;
+        hostUsername?: string;
         isCancelled?: boolean;
+        isGoing?: boolean;
+        isHost?: boolean;
+        host?: Profile;
         attendees?: Profile[];
     }
