@@ -47,7 +47,7 @@ export default observer(function ActivityDetailedChat({ activityId }: Props) {
                                 <Comment.Metadata>
                                     <div>{comment.createdAt}</div>
                                 </Comment.Metadata>
-                                <Comment.Text>{comment.body}</Comment.Text>
+                                <Comment.Text style={{whiteSpace: 'pre-wrap'}}>{comment.body}</Comment.Text>
                             </Comment.Content>
                         </Comment>
 
@@ -71,14 +71,18 @@ export default observer(function ActivityDetailedChat({ activityId }: Props) {
                                             <Loader active={isSubmitting} />
                                             <textarea
                                                 placeholder='Enter your comment (Enter to submit, SHIFT + enter for new line)'
-                                           rows={2}
-                                           {...props.field}
-                                           onKeyPress={e => {
-                                               if (e.key === 'enter' && e.shiftKey) {
-                                                   return;
-                                               }
-                                           }}
-                                           />
+                                                rows={2}
+                                                {...props.field}
+                                                onKeyPress={e => {
+                                                    if (e.key === 'Enter' && e.shiftKey) {
+                                                        return;
+                                                    }
+                                                    if (e.key === 'Enter' && !e.shiftKey) {
+                                                        e.preventDefault();
+                                                        isValid && handleSubmit();
+                                                    }
+                                                }}
+                                            />
                                         </div>
 
                                     )}
