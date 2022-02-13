@@ -11,6 +11,7 @@ interface Store {
     userStore: UserStore;
     modalStore: ModalStore;
     profileStore: ProfileStore;
+    commentStore: CommonStore;
 }
 
 export const store: Store = {
@@ -18,7 +19,8 @@ export const store: Store = {
     commonStore: new CommonStore(),
     userStore: new UserStore(),
     modalStore: new ModalStore(),
-    profileStore: new ProfileStore()
+    profileStore: new ProfileStore(),
+    commentStore: new CommonStore()
 
 }
 
