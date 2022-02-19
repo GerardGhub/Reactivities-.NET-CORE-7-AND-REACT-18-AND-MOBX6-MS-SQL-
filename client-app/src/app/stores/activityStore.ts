@@ -101,8 +101,8 @@ export default class ActivityStore {
 
 
     createActivity = async (activity: ActivityFormValues) => {
-     const user = store.userStore.user;
-     const attendee = new Profile(user!);
+        const user = store.userStore.user;
+        const attendee = new Profile(user!);
         try {
             await agent.Activities.create(activity)
             const newActivity = new Activity(activity);
@@ -122,12 +122,12 @@ export default class ActivityStore {
             await agent.Activities.update(activity);
             runInAction(() => {
                 if (activity.id) {
-                    let updatedActivity = {...this.getActivity(activity.id), ...activity}
+                    let updatedActivity = { ...this.getActivity(activity.id), ...activity }
                     this.activityRegistry.set(activity.id, updatedActivity as Activity);
                     this.selectedActivity = updatedActivity as Activity;
                 }
-                
-                
+
+
             })
         } catch (error) {
             console.log(error);
@@ -188,6 +188,21 @@ export default class ActivityStore {
             runInAction(() => this.loading = false);
         }
     }
+
+    updateAttendeeFollowing = (username: string) => {
+        this.activityRegistry.forEach(activity => {
+            activity.attendees.forEach(attendee => {
+                if (attendee.username === username) {
+                    attendee.following ? attendee.followersCount-- : attendee.followersCount++;
+                    attendee.following = !attendee.following;
+                }
+            })
+        })
+    }
+
+
+
+
 
     clearSelectedActivity = () => {
         this.selectedActivity = undefined;
