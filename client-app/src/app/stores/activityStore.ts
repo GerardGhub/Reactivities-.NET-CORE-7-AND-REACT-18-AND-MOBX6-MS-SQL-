@@ -3,7 +3,7 @@ import { format } from "date-fns";
 import { makeAutoObservable, runInAction } from "mobx";
 import agent from "../api/agent";
 import { Activity, ActivityFormValues } from "../models/activity";
-import { Pagination } from "../models/pagination";
+import { Pagination, PagingParams } from "../models/pagination";
 import { Profile } from "../models/profile";
 import { store } from "./store";
 
@@ -14,10 +14,23 @@ export default class ActivityStore {
     loading = false;
     loadingInitial = false;
     pagination: Pagination | null = null;
+    pagingParams = new PagingParams();
 
     constructor() {
         makeAutoObservable(this)
     }
+
+    setPagingParams = (pagingParams: PagingParams) => {
+        this.pagingParams = pagingParams;
+    }
+
+    get axiosParams() {
+        const params = new URLSearchParams();
+        params.append('pageNumber', this.pagingParams.pageNumber.toString());
+        params.append('pageSize', this.pagingParams.pageSize.toString());
+        return params;
+    }
+
 
     get activitiesByDate() {
         return Array.from(this.activityRegistry.values()).sort((a, b) =>
@@ -37,7 +50,7 @@ export default class ActivityStore {
     loadActivities = async () => {
         this.loadingInitial = true;
         try {
-            const result = await agent.Activities.list();   
+            const result = await agent.Activities.list(this.axiosParams);   
 
            result.data.forEach(activity => {
                this.setActivity(activity);
