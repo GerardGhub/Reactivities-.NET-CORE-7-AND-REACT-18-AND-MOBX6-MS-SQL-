@@ -1,5 +1,5 @@
 import { format } from "date-fns";
-import { el } from "date-fns/locale";
+// import { el } from "date-fns/locale";
 import { makeAutoObservable, runInAction } from "mobx";
 import agent from "../api/agent";
 import { Activity, ActivityFormValues } from "../models/activity";
