@@ -17,6 +17,12 @@ export class PaginatedResult<T> {
 }
 
 export class PagingParams {
-    pageNumber = 1;
-    pageSize = 2;
+    pageNumber;
+    pageSize;
+
+constructor(pageNumber = 1, pageSize = 2) {
+    this.pageNumber = pageNumber;
+    this.pageSize = pageSize;
+}
+
 }
