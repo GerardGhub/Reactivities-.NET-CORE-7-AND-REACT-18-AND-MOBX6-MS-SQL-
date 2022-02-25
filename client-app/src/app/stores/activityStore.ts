@@ -35,32 +35,31 @@ export default class ActivityStore {
         this.pagingParams = pagingParams;
     }
 
+
     setPredicate = (predicate: string, value: string | Date) => {
         const resetPredicate = () => {
             this.predicate.forEach((value, key) => {
-                if (key !== 'startDate') this.predicate.delete(key);
+                if (key !== 'startDate') this.predicate.delete(key)
             })
-            switch (predicate) {
-                case 'all':
-                    resetPredicate();
-                    this.predicate.set('all', true);
-                    break;
-                case 'isGoing':
-                    resetPredicate();
-                    this.predicate.set('isGoing', true);
-                    break;
-                case 'isHost':
-                    resetPredicate();
-                    this.predicate.set('isHost', true);
-                    break;
-                    case 'startDate' :
-                        this.predicate.delete('startDate');
-                        this.predicate.set('startDate', value);
-
-            }
+        }
+        switch (predicate) {
+            case 'all':
+                resetPredicate();
+                this.predicate.set('all', true);
+                break;
+            case 'isGoing':
+                resetPredicate();
+                this.predicate.set('isGoing', true);
+                break;
+            case 'isHost':
+                resetPredicate();
+                this.predicate.set('isHost', true);
+                break;
+            case 'startDate':
+                this.predicate.delete('startDate');
+                this.predicate.set('startDate', value);
         }
     }
-
 
     get axiosParams() {
         const params = new URLSearchParams();
