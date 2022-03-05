@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qfY2c896ZYmU7ALhl7zdUzSrZvJT9GMwtXpM+k1lA7k=",
+  "Hash": "OGcg+fZ7znwkx1mrkB2VunREHmenpEpFJ4HtN+PKq8k=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\asset-manifest.json",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\asset-manifest.json",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/asset-manifest.json",
+      "RelativePath": "asset-manifest.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\asset-manifest.json"
+      "OriginalItemSpec": "wwwroot\\asset-manifest.json"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\assets\\categoryImages\\culture.jpg",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\culture.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/assets/categoryImages/culture.jpg",
+      "RelativePath": "assets/categoryImages/culture.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,15 +48,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\assets\\categoryImages\\culture.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\culture.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\assets\\categoryImages\\drinks.jpg",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\drinks.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/assets/categoryImages/drinks.jpg",
+      "RelativePath": "assets/categoryImages/drinks.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,15 +65,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\assets\\categoryImages\\drinks.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\drinks.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\assets\\categoryImages\\film.jpg",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\film.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/assets/categoryImages/film.jpg",
+      "RelativePath": "assets/categoryImages/film.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -82,15 +82,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\assets\\categoryImages\\film.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\film.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\assets\\categoryImages\\food.jpg",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\food.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/assets/categoryImages/food.jpg",
+      "RelativePath": "assets/categoryImages/food.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -99,15 +99,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\assets\\categoryImages\\food.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\food.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\assets\\categoryImages\\music.jpg",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\music.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/assets/categoryImages/music.jpg",
+      "RelativePath": "assets/categoryImages/music.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -116,15 +116,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\assets\\categoryImages\\music.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\music.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\assets\\categoryImages\\travel.jpg",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\travel.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/assets/categoryImages/travel.jpg",
+      "RelativePath": "assets/categoryImages/travel.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\assets\\categoryImages\\travel.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\travel.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\assets\\logo.png",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\logo.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/assets/logo.png",
+      "RelativePath": "assets/logo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\assets\\logo.png"
+      "OriginalItemSpec": "wwwroot\\assets\\logo.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\assets\\placeholder.png",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\placeholder.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/assets/placeholder.png",
+      "RelativePath": "assets/placeholder.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\assets\\placeholder.png"
+      "OriginalItemSpec": "wwwroot\\assets\\placeholder.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\assets\\user.png",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\user.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/assets/user.png",
+      "RelativePath": "assets/user.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,15 +184,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\assets\\user.png"
+      "OriginalItemSpec": "wwwroot\\assets\\user.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\favicon.ico",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\favicon.ico",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/favicon.ico",
+      "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -201,15 +201,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\favicon.ico"
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\index.html",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/index.html",
+      "RelativePath": "index.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,15 +218,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\index.html"
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\logo192.png",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\logo192.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/logo192.png",
+      "RelativePath": "logo192.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -235,15 +235,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\logo192.png"
+      "OriginalItemSpec": "wwwroot\\logo192.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\logo512.png",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\logo512.png",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/logo512.png",
+      "RelativePath": "logo512.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -252,15 +252,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\logo512.png"
+      "OriginalItemSpec": "wwwroot\\logo512.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\manifest.json",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\manifest.json",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/manifest.json",
+      "RelativePath": "manifest.json",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,15 +269,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\manifest.json"
+      "OriginalItemSpec": "wwwroot\\manifest.json"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\robots.txt",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\robots.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/robots.txt",
+      "RelativePath": "robots.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -286,15 +286,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\robots.txt"
+      "OriginalItemSpec": "wwwroot\\robots.txt"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\static\\css\\main.e4a19919.css",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\css\\main.e4a19919.css",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/static/css/main.e4a19919.css",
+      "RelativePath": "static/css/main.e4a19919.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -303,15 +303,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\static\\css\\main.e4a19919.css"
+      "OriginalItemSpec": "wwwroot\\static\\css\\main.e4a19919.css"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\static\\css\\main.e4a19919.css.map",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\css\\main.e4a19919.css.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/static/css/main.e4a19919.css.map",
+      "RelativePath": "static/css/main.e4a19919.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -320,15 +320,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\static\\css\\main.e4a19919.css.map"
+      "OriginalItemSpec": "wwwroot\\static\\css\\main.e4a19919.css.map"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\static\\js\\787.a884d243.chunk.js",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\787.a884d243.chunk.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/static/js/787.a884d243.chunk.js",
+      "RelativePath": "static/js/787.a884d243.chunk.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,15 +337,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\static\\js\\787.a884d243.chunk.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\787.a884d243.chunk.js"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\static\\js\\787.a884d243.chunk.js.map",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\787.a884d243.chunk.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/static/js/787.a884d243.chunk.js.map",
+      "RelativePath": "static/js/787.a884d243.chunk.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -354,15 +354,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\static\\js\\787.a884d243.chunk.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\787.a884d243.chunk.js.map"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\static\\js\\main.9073195b.js",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/static/js/main.9073195b.js",
+      "RelativePath": "static/js/main.9073195b.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\static\\js\\main.9073195b.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.9073195b.js"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\static\\js\\main.9073195b.js.LICENSE.txt",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/static/js/main.9073195b.js.LICENSE.txt",
+      "RelativePath": "static/js/main.9073195b.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\static\\js\\main.9073195b.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.9073195b.js.LICENSE.txt"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\build\\static\\js\\main.9073195b.js.map",
+      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "build/static/js/main.9073195b.js.map",
+      "RelativePath": "static/js/main.9073195b.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,7 +405,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\build\\static\\js\\main.9073195b.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.9073195b.js.map"
     }
   ]
 }
