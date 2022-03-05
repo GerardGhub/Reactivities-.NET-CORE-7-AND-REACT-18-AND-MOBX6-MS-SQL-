@@ -80,3 +80,4 @@ D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Infrastructur
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Infrastructure.pdb
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\CloudinaryDotNet.dll
 D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\MY Files\UM System\Full Stack\Reactivities\API\bin\Debug\net6.0\API.staticwebassets.runtime.json
