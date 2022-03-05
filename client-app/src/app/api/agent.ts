@@ -14,21 +14,20 @@ const sleep = (delay: number) => {
 }
 
 
-axios.defaults.baseURL = 'http://localhost:5000/api';
-
+axios.defaults.baseURL = process.env.REACT_APP_API_URL;
+// 'http://localhost:5000/api';
 axios.interceptors.request.use(config => {
     const token = store.commonStore.token;
-    if (token) config.headers!.Authorization = `Bearer ${token}` 
+    if (token) config.headers!.Authorization = `Bearer ${token}`
     return config;
 
 
-  
-    
+
+
 })
 
 axios.interceptors.response.use(async response => {
-
-    await sleep(1000);
+    if (process.env.NODE_ENV === 'development') await sleep(1000);
     const pagination = response.headers['pagination'];
     if (pagination) {
         response.data = new PaginatedResult(response.data, JSON.parse(pagination));
@@ -40,22 +39,22 @@ axios.interceptors.response.use(async response => {
     const { data, status, config } = error.response!;
     switch (status) {
         case 400:
-            if(typeof data == 'string') {
+            if (typeof data == 'string') {
                 toast.error(data);
             }
             if (config.method === 'get' && data.errors.hasOwnProperty('id')) {
                 history.push('/not-found');
             }
-            if(data.errors) {
+            if (data.errors) {
                 const modalStateErrors = [];
-                for (const key in data.errors){
-                    if(data.errors[key]) {
+                for (const key in data.errors) {
+                    if (data.errors[key]) {
                         modalStateErrors.push(data.errors[key])
-                        
+
                     }
                 }
                 throw modalStateErrors.flat();
-                
+
             }
             break;
         case 401:
@@ -82,7 +81,7 @@ const requests = {
 }
 
 const Activities = {
-    list: (params: URLSearchParams) => axios.get<PaginatedResult<Activity[]>>('/activities', {params}
+    list: (params: URLSearchParams) => axios.get<PaginatedResult<Activity[]>>('/activities', { params }
     ).then(responseBody),
     details: (id: string) => requests.get<Activity>(`/activities/${id}`),
     create: (activity: ActivityFormValues) => requests.post<void>('/activities', activity),
@@ -94,7 +93,7 @@ const Activities = {
 const Account = {
     current: () => requests.get<User>('/account'),
     login: (user: UserFormValues) => requests.post<User>('/account/login', user),
-    register: (user: UserFormValues)  => requests.post<User>('/account/register', user)
+    register: (user: UserFormValues) => requests.post<User>('/account/register', user)
 }
 
 const Profiles = {
@@ -102,8 +101,8 @@ const Profiles = {
     uploadPhoto: (file: Blob) => {
         let formData = new FormData();
         formData.append('File', file);
-        return axios.post<Photo>('photos', formData , {
-            headers: {'Content-type' : 'multipart/form-data'}
+        return axios.post<Photo>('photos', formData, {
+            headers: { 'Content-type': 'multipart/form-data' }
         })
     },
     setMainPhoto: (id: string) => requests.post(`/photos/${id}/setMain`, {}),
@@ -111,9 +110,9 @@ const Profiles = {
     updateProfile: (profile: Partial<Profile>) => requests.put(`profiles`, profile),
     updateFollowing: (username: string) => requests.post(`/follow/${username}`, {}),
     listFollowings: (username: string, predicate: string) =>
-    requests.get<Profile[]>(`/follow/${username}?predicate=${predicate}`),
+        requests.get<Profile[]>(`/follow/${username}?predicate=${predicate}`),
     listActivities: (username: string, predicate: string) =>
-    requests.get<UserActivity[]>(`/profiles/${username}/activities?predicate=${predicate}`)
+        requests.get<UserActivity[]>(`/profiles/${username}/activities?predicate=${predicate}`)
 
 }
 
