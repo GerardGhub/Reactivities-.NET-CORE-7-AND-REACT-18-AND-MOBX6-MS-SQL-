@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OGcg+fZ7znwkx1mrkB2VunREHmenpEpFJ4HtN+PKq8k=",
+  "Hash": "Tn5qezk9fk0GVmEsHuKVIL5l6GbogmayexLtXHYqMIc=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "API\\wwwroot",
       "Source": "API",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\asset-manifest.json",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\asset-manifest.json",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "asset-manifest.json",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\asset-manifest.json"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\culture.jpg",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\culture.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/culture.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\culture.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\drinks.jpg",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\drinks.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/drinks.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\drinks.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\film.jpg",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\film.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/film.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\film.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\food.jpg",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\food.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/food.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\food.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\music.jpg",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\music.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/music.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\music.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\travel.jpg",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\categoryImages\\travel.jpg",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/categoryImages/travel.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\categoryImages\\travel.jpg"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\logo.png",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\logo.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/logo.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\logo.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\placeholder.png",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\placeholder.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/placeholder.png",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\placeholder.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\user.png",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\assets\\user.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "assets/user.png",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\user.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\favicon.ico",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\index.html",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\index.html",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\logo192.png",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\logo192.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "logo192.png",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\logo192.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\logo512.png",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\logo512.png",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "logo512.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\logo512.png"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\manifest.json",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\manifest.json",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "manifest.json",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\manifest.json"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\robots.txt",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\robots.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "robots.txt",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\robots.txt"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\css\\main.e4a19919.css",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\static\\css\\main.e4a19919.css",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/css/main.e4a19919.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\static\\css\\main.e4a19919.css"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\css\\main.e4a19919.css.map",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\static\\css\\main.e4a19919.css.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/css/main.e4a19919.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\static\\css\\main.e4a19919.css.map"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\787.a884d243.chunk.js",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\787.a884d243.chunk.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/js/787.a884d243.chunk.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.a884d243.chunk.js"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\787.a884d243.chunk.js.map",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\787.a884d243.chunk.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/js/787.a884d243.chunk.js.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.a884d243.chunk.js.map"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/js/main.9073195b.js",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\main.9073195b.js"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js.LICENSE.txt",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/js/main.9073195b.js.LICENSE.txt",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\main.9073195b.js.LICENSE.txt"
     },
     {
-      "Identity": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js.map",
+      "Identity": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\MY Files\\UM System\\Full Stack\\Reactivities\\API\\wwwroot\\",
+      "ContentRoot": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
       "RelativePath": "static/js/main.9073195b.js.map",
       "AssetKind": "All",
