@@ -30,3 +30,20 @@ C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reacti
 C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reactivities\Persistence\obj\Debug\net6.0\ref\Persistence.dll
 C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reactivities\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
 C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\bin\Debug\net6.0\Persistence.deps.json
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\bin\Debug\net6.0\Persistence.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\bin\Debug\net6.0\Persistence.pdb
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\bin\Debug\net6.0\Domain.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\bin\Debug\net6.0\Domain.pdb
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\refint\Persistence.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.pdb
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Persistence\obj\Debug\net6.0\ref\Persistence.dll

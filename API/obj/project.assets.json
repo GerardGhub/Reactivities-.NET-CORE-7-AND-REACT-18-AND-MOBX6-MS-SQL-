@@ -3817,11 +3817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\API.csproj",
+      "projectUniqueName": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\API.csproj",
+      "projectPath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\API.csproj",
       "packagesPath": "C:\\Users\\VivoBook\\.nuget\\packages\\",
-      "outputPath": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\API\\obj\\",
+      "outputPath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -3846,11 +3846,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\Application\\Application.csproj": {
-              "projectPath": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\Application\\Application.csproj"
+            "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Application\\Application.csproj": {
+              "projectPath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Application\\Application.csproj"
             },
-            "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\Infrastructure\\Infrastructure.csproj"
+            "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

@@ -62,6 +62,7 @@
     ]
   },
   "devDependencies": {
+    "@types/facebook-js-sdk": "^3.3.5",
     "@types/react-datepicker": "^4.3.4",
     "@types/uuid": "^8.3.3",
     "@types/yup": "^0.29.13",

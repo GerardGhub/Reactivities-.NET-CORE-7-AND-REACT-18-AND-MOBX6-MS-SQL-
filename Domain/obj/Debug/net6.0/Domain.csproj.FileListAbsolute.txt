@@ -22,3 +22,15 @@ C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reacti
 C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reactivities\Domain\obj\Debug\net6.0\refint\Domain.dll
 C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reactivities\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reactivities\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\bin\Debug\net6.0\Domain.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\bin\Debug\net6.0\Domain.pdb
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\obj\Debug\net6.0\Domain.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\obj\Debug\net6.0\Domain.pdb
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Domain\obj\Debug\net6.0\ref\Domain.dll

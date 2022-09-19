@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l+KFG0uA7V7WFmef5t5Lp4GTAIOEQJlTPrEyzV0V7joYOJcsY2C92ACpb7KUR+BK3TdD97GeoL6s+JIh01jhNg==",
+  "dgSpecHash": "NqEfw1J0/GMskCZ6jqQaAWRgQ3pkivIo+0Q53MxRb5OK4phjJVnp3e5biyh2h/VGFIzDPlqVK0jfaGBXE7womA==",
   "success": true,
-  "projectFilePath": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\Application\\Application.csproj",
+  "projectFilePath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VivoBook\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\VivoBook\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

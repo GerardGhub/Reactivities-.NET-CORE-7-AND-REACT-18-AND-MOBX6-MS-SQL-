@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZFzGoBm8Szkp+jL9dgi/DFXJqV0C5xSZ5pH6caH85igSCrLBGBScIMIlw3xGi/J5oS8vg6+etoUiFunQrauozA==",
+  "dgSpecHash": "RN6DAPL8ikAQ+xjSArZmobgRsZy4zaLBBhGfBpzkVo4L92nQD9DziSUO1VArFYk9T47fUyYqfrpgT3NKSxS5Ng==",
   "success": true,
-  "projectFilePath": "C:\\Files Gerard\\React\\Social Media React & Net Core\\Full Stack\\Full Stack\\Reactivities\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VivoBook\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.1\\microsoft.aspnetcore.cryptography.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\VivoBook\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.1\\microsoft.aspnetcore.cryptography.keyderivation.6.0.1.nupkg.sha512",

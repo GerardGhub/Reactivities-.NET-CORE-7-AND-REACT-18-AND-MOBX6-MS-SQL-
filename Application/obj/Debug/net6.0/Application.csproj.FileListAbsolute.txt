@@ -32,3 +32,20 @@ C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reacti
 C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reactivities\Application\obj\Debug\net6.0\refint\Application.dll
 C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reactivities\Application\obj\Debug\net6.0\Application.pdb
 C:\Files Gerard\React\Social Media React & Net Core\Full Stack\Full Stack\Reactivities\Application\obj\Debug\net6.0\ref\Application.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\bin\Debug\net6.0\Application.deps.json
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\bin\Debug\net6.0\Application.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\bin\Debug\net6.0\Application.pdb
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\bin\Debug\net6.0\Domain.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\bin\Debug\net6.0\Persistence.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\bin\Debug\net6.0\Persistence.pdb
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\bin\Debug\net6.0\Domain.pdb
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\Application.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\refint\Application.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\Application.pdb
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\Application\obj\Debug\net6.0\ref\Application.dll
