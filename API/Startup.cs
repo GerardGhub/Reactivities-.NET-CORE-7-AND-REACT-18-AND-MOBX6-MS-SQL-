@@ -24,6 +24,7 @@ using Microsoft.OpenApi.Models;
 using Persistence;
 
 
+
 namespace API
 {
     public class Startup
@@ -60,6 +61,10 @@ namespace API
         {
 
             app.UseMiddleware<ExceptionMiddleware>();
+
+            // app.UseXContentTypeOptions();
+
+      
 
             if (env.IsDevelopment())
             {

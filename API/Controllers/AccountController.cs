@@ -99,7 +99,7 @@ namespace API.Controllers
             return CreateUserObject(user);
         }
 
-
+        [HttpPost("fbLogin")]
         public async Task<ActionResult<UserDto>> FacebookLogin(string accessToken)
         {
             var fbVerifyKeys = _config["Facebook:AppId"] + "|" + _config["Facebook:AppSecret"];
@@ -115,11 +115,38 @@ namespace API.Controllers
 
             if (!response.IsSuccessStatusCode) return Unauthorized();
 
-            var content = await response.Content.ReadAsStringAsync();
 
-            var fbInfo = JsonConvert.DeserializeObject<dynamic>(content);
+            var fbInfo = JsonConvert.DeserializeObject<dynamic>(await response.Content.ReadAsStringAsync());
 
-            return new UserDto();
+            var username = (string)fbInfo.id;
+
+            var user = await _userManager.Users.Include(p => p.Photos)
+            .FirstOrDefaultAsync(x => x.UserName == username);
+
+            if (user != null) return CreateUserObject(user);
+
+            user = new AppUser
+            {
+                DisplayName = (string)fbInfo.name,
+                Email = (string)fbInfo.email,
+                UserName = (string)fbInfo.id,
+                Photos = new List<Photo>
+                {
+                 new Photo
+                 {
+                    Id = "fb_" + (string)fbInfo.id,
+                    Url = (string)fbInfo.picture.data.url,
+                    IsMain = true
+
+                }}
+            };
+
+            var result = await _userManager.CreateAsync(user);
+
+            if (!result.Succeeded) return BadRequest("Problem creating user account");
+
+            return CreateUserObject(user);
+
         }
 
 

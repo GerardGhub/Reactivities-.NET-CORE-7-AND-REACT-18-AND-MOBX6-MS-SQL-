@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OwMDjmeXdYQI4rqRqhw/eZxql7GoUsSoTdFmK9yj1YQ=",
+  "Hash": "23RSUHulLez7JKcJPiDx0Qq+HcBaU8wCA/EnhhW+9Zs=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -357,12 +357,12 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.a884d243.chunk.js.map"
     },
     {
-      "Identity": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js",
+      "Identity": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\wwwroot\\static\\js\\main.7dc1f7fe.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.9073195b.js",
+      "RelativePath": "static/js/main.7dc1f7fe.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -371,15 +371,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.9073195b.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.7dc1f7fe.js"
     },
     {
-      "Identity": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js.LICENSE.txt",
+      "Identity": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\wwwroot\\static\\js\\main.7dc1f7fe.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.9073195b.js.LICENSE.txt",
+      "RelativePath": "static/js/main.7dc1f7fe.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -388,15 +388,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.9073195b.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.7dc1f7fe.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\wwwroot\\static\\js\\main.9073195b.js.map",
+      "Identity": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\wwwroot\\static\\js\\main.7dc1f7fe.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.9073195b.js.map",
+      "RelativePath": "static/js/main.7dc1f7fe.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -405,7 +405,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.9073195b.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.7dc1f7fe.js.map"
     }
   ]
 }
