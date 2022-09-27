@@ -62,10 +62,6 @@ namespace API
 
             app.UseMiddleware<ExceptionMiddleware>();
 
-            // app.UseXContentTypeOptions();
-
-      
-
             if (env.IsDevelopment())
             {
 
