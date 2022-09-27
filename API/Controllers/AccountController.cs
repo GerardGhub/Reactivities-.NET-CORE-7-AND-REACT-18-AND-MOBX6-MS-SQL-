@@ -1,19 +1,19 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using API.DTOs;
-using API.Services;
-using Domain;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+// using System;
+// using System.Collections.Generic;
+// using System.Linq;
+// using System.Security.Claims;
+// using System.Threading.Tasks;
+// using API.DTOs;
+// using API.Services;
+// using Domain;
+// using Microsoft.AspNetCore.Authorization;
+// using Microsoft.AspNetCore.Identity;
+// using Microsoft.AspNetCore.Mvc;
+// using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
-namespace API.Controllers
-{
+namespace API.Controllers;
+
     // [AllowAnonymous]
     [ApiController]
     [Route("api/[controller]")]
@@ -208,4 +208,3 @@ namespace API.Controllers
         }
 
     }
-}
