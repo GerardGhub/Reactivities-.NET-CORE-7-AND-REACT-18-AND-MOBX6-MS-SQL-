@@ -27,7 +27,8 @@ function App() {
   useEffect(() => {
     if (commonStore.token) {
       userStore.getUser().finally(() => commonStore.setAppLoaded());
-    } else {
+    } 
+    else {
       userStore.getFacebookLoginStatus().then(() =>  commonStore.setAppLoaded());
      
     }

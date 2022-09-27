@@ -31,6 +31,7 @@ export default observer(function HomePage() {
             <Button onClick={() => modalStore.openModal(<RegisterForm />)} size='huge' inverted>
               Register!
             </Button>
+            
             <Divider horizontal inverted>Or</Divider>
             <Button
             loading={userStore.fbLoading}
