@@ -3029,8 +3029,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj"
+            "c:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj"
             },
             "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Persistence\\Persistence.csproj": {
               "projectPath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Persistence\\Persistence.csproj"
