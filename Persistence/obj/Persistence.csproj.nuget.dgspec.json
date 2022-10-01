@@ -4,14 +4,14 @@
     "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "c:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj": {
+    "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\VivoBook\\.nuget\\packages\\",
-        "outputPath": "c:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\obj\\",
+        "outputPath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -105,8 +105,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj"
+              "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\FilesGerard\\React\\SocialMediaReactNetCore\\fullstack\\fullstack\\Reactivities\\Domain\\Domain.csproj"
               }
             }
           }
