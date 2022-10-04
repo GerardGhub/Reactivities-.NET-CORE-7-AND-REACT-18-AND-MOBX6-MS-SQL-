@@ -1,3 +1,4 @@
+
 using Application.Activities;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,7 @@ builder.Services.AddControllers(opt =>
 {
     config.RegisterValidatorsFromAssemblyContaining<Create>();
 });
+
 builder.Services.AddApplicationServices(builder.Configuration);
 builder.Services.AddIdentityServices(builder.Configuration);
 
@@ -32,7 +34,8 @@ app.UseCsp(opt => opt
 .FormActions(s => s.Self())
 .FrameAncestors(s => s.Self())
 .ImageSources(s => s.Self().CustomSources("https://res.cloudinary.com", "https://www.facebook.com"))
-.ScriptSources(s => s.Self().CustomSources("sha256-xf9uasCuSmsdg8wWbtDMx7pqLTf5pwpWU/rfDrij3Jc=").CustomSources("https://connect.facebook.net"))
+.ScriptSources(s => s.Self().CustomSources("sha256-xf9uasCuSmsdg8wWbtDMx7pqLTf5pwpWU/rfDrij3Jc=")
+.CustomSources("https://connect.facebook.net"))
 );
 
 if (app.Environment.IsDevelopment())
