@@ -1,16 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Hosting;
 using System.Net;
-using Application.Core;
 using System.Text.Json;
+using Application.Core;
 
-namespace API.Middleware
-{
+namespace API.Middleware;
+
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
@@ -49,4 +42,3 @@ namespace API.Middleware
             }
         }
     }
-}
