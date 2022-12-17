@@ -301,3 +301,8 @@ C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\AP
 C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\API\obj\Debug\net6.0\ref\API.dll
 C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\API\bin\Debug\net6.0\NWebsec.AspNetCore.Core.dll
 C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\API\bin\Debug\net6.0\NWebsec.AspNetCore.Middleware.dll
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\API\obj\Debug\net6.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\API\obj\Debug\net6.0\staticwebassets\msbuild.build.API.props
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\FilesGerard\React\SocialMediaReactNetCore\fullstack\fullstack\Reactivities\API\obj\Debug\net6.0\staticwebassets.pack.json
