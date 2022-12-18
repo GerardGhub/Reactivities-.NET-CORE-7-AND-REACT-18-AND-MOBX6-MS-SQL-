@@ -45,7 +45,7 @@ public class AccountController : ControllerBase
         //Kapag Success na navalidate yung credentials
         if (result.Succeeded)
         {
-            //Set the token on the user
+            //Set the refresh token on the user with validity of 7 days
             await SetRefreshToken(user);
             return CreateUserObject(user);
         }
