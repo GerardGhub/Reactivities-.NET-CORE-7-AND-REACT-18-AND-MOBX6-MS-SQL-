@@ -49,9 +49,13 @@ namespace API.Services
 
         public RefreshToken GenerateRefreshToken()
         {
+            //Declaration ng random number in new bytes if naglogin sya 
             var randomNumber = new byte[32];
+            //Create the random Number
             using var rng = RandomNumberGenerator.Create();
+            //Get the random number and Get the actual bytes of random number
             rng.GetBytes(randomNumber);
+            //pass the new refresh token on the user
             return new RefreshToken { Token = Convert.ToBase64String(randomNumber)};
         }
 

@@ -4,6 +4,7 @@ namespace API.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+//Kapag yung route is controller sya kukunin nya yung name ng Controller matic impleation using the API Controller
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
