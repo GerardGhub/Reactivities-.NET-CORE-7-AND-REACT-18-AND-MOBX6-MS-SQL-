@@ -16,9 +16,6 @@ global using Microsoft.Extensions.Configuration;
 global using Microsoft.Extensions.Hosting;
 global using Microsoft.Extensions.Logging;
 global using Persistence;
-
-
-
 global using System.Security.Claims;
 global using API.DTOs;
 global using API.Services;
