@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace API.DTOs
 {
+    //Example of Data Annotation Using the Registration
     public class RegisterDto
     {
         [Required]

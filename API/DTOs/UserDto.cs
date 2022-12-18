@@ -7,6 +7,7 @@ namespace API.DTOs
 {
     public class UserDto
     {
+        //Return this Dto Once na Naglogin Kana
         public string DisplayName { get; set; }
         public string Token { get; set; }
         public string Username { get; set; }
