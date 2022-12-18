@@ -20,10 +20,6 @@ axios.interceptors.request.use(config => {
     const token = store.commonStore.token;
     if (token) config.headers!.Authorization = `Bearer ${token}`
     return config;
-
-
-
-
 })
 
 axios.interceptors.response.use(async response => {

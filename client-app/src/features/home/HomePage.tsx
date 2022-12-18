@@ -13,7 +13,7 @@ export default observer(function HomePage() {
       <Container text>
         <Header as='h1' inverted>
           <Image size='massive' src='/assets/logo.png' alt='logo' style={{ marginBottom: 12 }} />
-          Reactivities
+          Reactivities 2023
         </Header>
         {userStore.isLoggedIn ? (
           <>
@@ -32,15 +32,15 @@ export default observer(function HomePage() {
               Register!
             </Button>
             
-            <Divider horizontal inverted>Or</Divider>
-            <Button
+            {/* <Divider horizontal inverted>Or</Divider> */}
+            {/* <Button
             loading={userStore.fbLoading}
             size='huge'
             inverted
             color='facebook'
             content='Login with Facebook'
             onClick={userStore.facebookLogin}
-            />
+            /> */}
 
           </>
 

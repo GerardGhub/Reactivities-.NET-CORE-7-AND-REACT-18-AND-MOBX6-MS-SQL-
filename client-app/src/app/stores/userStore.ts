@@ -7,7 +7,7 @@ import { store } from "./store";
 export default class UserStore {
     user: User | null = null;
     fbAccessToken: string | null = null;
-    fbLoading = false;
+    fbLoading = false; //Remove Muna
     refreshTokenTimeout: any;
 
     constructor() {
