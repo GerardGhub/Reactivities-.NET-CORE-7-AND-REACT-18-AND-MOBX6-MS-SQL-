@@ -15,7 +15,7 @@ builder.Services.AddControllers(opt =>
 builder.Services.AddApplicationServices(builder.Configuration);
 builder.Services.AddIdentityServices(builder.Configuration);
 
-//Configure the http request pipeline
+//Configure the HTTP request pipeline
 
 var app = builder.Build();
 
