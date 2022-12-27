@@ -5077,6 +5077,7 @@
       "NWebsec.AspNetCore.Middleware >= 3.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0",
+      "Swashbuckle.AspNetCore.Swagger >= 6.4.0",
       "System.IdentityModel.Tokens.Jwt >= 6.25.1"
     ]
   },
@@ -5182,6 +5183,10 @@
             "version": "[6.0.3, )"
           },
           "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
+          "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
             "version": "[6.4.0, )"
           },
