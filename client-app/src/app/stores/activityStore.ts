@@ -1,16 +1,13 @@
-import { throws } from "assert";
-import { format } from "date-fns";
-// import { el } from "date-fns/locale";
 import { makeAutoObservable, reaction, runInAction } from "mobx";
-import agent from "../api/agent";
 import { Activity, ActivityFormValues } from "../models/activity";
-import { Pagination, PagingParams } from "../models/pagination";
-import { Profile } from "../models/profile";
+import agent from "../api/agent";
 import { store } from "./store";
+import { Profile } from "../models/profile";
+import { Pagination, PagingParams } from "../models/pagination";
 
 export default class ActivityStore {
     activityRegistry = new Map<string, Activity>();
-    selectedActivity: Activity | undefined = undefined;
+    selectedActivity?: Activity = undefined;
     editMode = false;
     loading = false;
     loadingInitial = false;
@@ -58,6 +55,7 @@ export default class ActivityStore {
             case 'startDate':
                 this.predicate.delete('startDate');
                 this.predicate.set('startDate', value);
+                break;
         }
     }
 
@@ -84,7 +82,7 @@ export default class ActivityStore {
     get groupedActivities() {
         return Object.entries(
             this.activitiesByDate.reduce((activities, activity) => {
-                const date = format(activity.date!, 'dd MMM yyyy');
+                const date = activity.date!.toISOString().split('T')[0];
                 activities[date] = activities[date] ? [...activities[date], activity] : [activity];
                 return activities;
             }, {} as { [key: string]: Activity[] })
