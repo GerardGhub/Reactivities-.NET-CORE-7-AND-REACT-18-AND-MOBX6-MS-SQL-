@@ -141,6 +141,8 @@ npm install @types/react-datepicker --save-dev
 npm ls date-fns
 npm install date-fns@2.28.0
 date-fns.org
+
+//backend
  domain
 Microsoft.AspNetCore.Identity.EntityFrameworkCore by
 
@@ -187,8 +189,6 @@ dotnet ef database drop -p Persistence -s API
 
 https://cloudinary.com/homepage-1-25-22
 
-xzvnx
-KabayongProgrammer@181997
 
 CloudinaryDotNet by Cloudinary  nbugget package
 dotnet ef migrations add PhotoEntityAdded -p Persistence -s API
