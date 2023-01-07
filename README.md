@@ -245,10 +245,6 @@ dotnet ef migrations add PGInitial -p Persistence -s API
 
 dotnet tool update -g dotnet-ef
 PostgreSQL Management To
-
-
-  
-  
   
   
 migrating sa mSSQL
