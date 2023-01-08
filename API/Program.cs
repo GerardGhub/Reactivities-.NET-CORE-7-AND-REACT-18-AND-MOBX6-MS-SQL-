@@ -27,7 +27,7 @@ app.UseCsp(opt => opt
 .FontSources(s => s.Self().CustomSources("https://fonts.gstatic.com", "data:"))
 .FormActions(s => s.Self())
 .FrameAncestors(s => s.Self())
-.ImageSources(s => s.Self().CustomSources("blob:", "https://res.cloudinary.com",  "https://platform-lookaside.fbsbx.com"))
+.ImageSources(s => s.Self().CustomSources("blob:", "https://res.cloudinary.com", "https://platform-lookaside.fbsbx.com"))
 .ScriptSources(s => s.Self().CustomSources("sha256-xf9uasCuSmsdg8wWbtDMx7pqLTf5pwpWU/rfDrij3Jc=",
 "sha256-AaD233S3nLNrz8GvI5Ct4JgDe2xTKcgZbhIdfyO3wrA=",
 "sha256-Tui7QoFlnLXkJCSl1/JvEZdIXTmBttnWNxzJpXomQjg="))
@@ -49,11 +49,6 @@ else
     });
 }
 
-// app.UseHttpsRedirection();
-
-
-
-
 app.UseCors("CorsPolicy");
 
 app.UseAuthentication();
@@ -62,12 +57,9 @@ app.UseAuthorization();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
-
 app.MapControllers();
 app.MapHub<ChatHub>("/chat");
 app.MapFallbackToController("Index", "Fallback");
-
-
 
 using var scope = app.Services.CreateScope();
 
@@ -82,7 +74,6 @@ try
 }
 catch (Exception ex)
 {
-
     var logger = services.GetRequiredService<ILogger<Program>>();
     logger.LogError(ex, "An error occured during migration");
 }

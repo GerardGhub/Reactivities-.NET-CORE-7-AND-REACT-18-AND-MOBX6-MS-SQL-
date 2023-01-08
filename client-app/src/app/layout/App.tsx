@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-    <ScrollRestoration/>
+      <ScrollRestoration />
       <ModalContainer />
       <ToastContainer position='bottom-right' hideProgressBar />
       {location.pathname === '/' ? <HomePage /> : (
