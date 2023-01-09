@@ -14,15 +14,17 @@ export const routes: RouteObject[] = [
         path: '/',
         element: <App />,
         children: [
-            {element: <RequireAuth />, children: [
-            { path: 'activities', element: <ActivityDashboard /> },
-            { path: 'activities/:id', element: <ActivityDetails /> },
-            { path: 'createActivity', element: <ActivityForm key='create' /> },
-            { path: 'manage/:id', element: <ActivityForm key='manage' /> },
-            { path: 'profiles/:username', element: <ProfilePage /> },
-            { path: 'errors', element: <TestErrors /> }
-            ]},
-            { path: 'server-error', element: <ServerError/> },
+            {
+                element: <RequireAuth />, children: [
+                    { path: 'activities', element: <ActivityDashboard /> },
+                    { path: 'activities/:id', element: <ActivityDetails /> },
+                    { path: 'createActivity', element: <ActivityForm key='create' /> },
+                    { path: 'manage/:id', element: <ActivityForm key='manage' /> },
+                    { path: 'profiles/:username', element: <ProfilePage /> },
+                    { path: 'errors', element: <TestErrors /> }
+                ]
+            },
+            { path: 'server-error', element: <ServerError /> },
             { path: 'not-found', element: <NotFound /> },
             { path: '*', element: <Navigate replace to='/not-found' /> },
         ]
