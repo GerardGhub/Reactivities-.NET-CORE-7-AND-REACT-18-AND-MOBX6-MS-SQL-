@@ -19,7 +19,7 @@ export default function MyTextInput(props: Props) {
                 <Label basic color='red'>
                     {meta.error}
                 </Label>
-            ): null}
+            ) : null}
         </Form.Field>
     )
 }

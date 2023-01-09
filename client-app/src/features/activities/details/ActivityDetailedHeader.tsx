@@ -35,17 +35,18 @@ export default observer(function ActivityDetailedHeader({ activity }: Props) {
                 <Segment style={activityImageTextStyle} basic>
                     <Item.Group>
                         <Item>
-                            <Item.Content style={{color: 'black'}}>
+                            <Item.Content>
                                 <Header
                                     size='huge'
                                     content={activity.title}
-                                    style={{ color: 'black', marginRight: '5px' }}
+                                    style={{ color: 'white' }}
                                 />
-                                <span style={{marginRight: '5px'}}>
-                                {format(activity.date!, 'dd MMM yyyy')}
-                               </span>
-                             Hosted by <strong><Link to={`/profiles/${activity.hostUsername}`}>{activity.hostUsername}</Link></strong>
-                           
+
+                                <p>{format(activity.date!, 'dd MMM yyyy')}</p>
+                                <p>
+                                    Hosted by <strong><Link to={`/profiles/${activity.hostUsername}`}>{activity.hostUsername}</Link></strong>
+                                </p>
+
                             </Item.Content>
                         </Item>
                     </Item.Group>
@@ -74,10 +75,10 @@ export default observer(function ActivityDetailedHeader({ activity }: Props) {
                     </>
 
                 ) : activity.isGoing ? (
-                    <Button onClick={updateAttendance} 
+                    <Button onClick={updateAttendance}
                         loading={loading}>Cancel attendance</Button>
                 ) : (
-                    <Button disabled={activity.isCancelled} onClick={updateAttendance} 
+                    <Button disabled={activity.isCancelled} onClick={updateAttendance}
                         loading={loading} color='teal'>Join Activity</Button>
                 )}
             </Segment>
