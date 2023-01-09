@@ -26,7 +26,7 @@ export interface Photo {
 }
 
 export interface UserActivity {
-    id : string;
+    id: string;
     title: string;
     category: string;
     date: Date;
