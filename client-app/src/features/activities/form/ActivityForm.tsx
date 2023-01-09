@@ -1,5 +1,5 @@
 import { observer } from "mobx-react-lite";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { Button, Header, Segment } from "semantic-ui-react";
 import LoadingComponent from "../../../app/layout/LoadingComponent";
@@ -13,7 +13,6 @@ import MySelectInput from "../../../app/common/form/MySelectInput";
 import { categoryOptions } from "../../../app/common/options/categoryOptions";
 import MyDateInput from "../../../app/common/form/MyDateInput";
 import { ActivityFormValues } from "../../../app/models/activity";
-import { router } from "../../../app/router/Routes";
 
 
 
@@ -32,7 +31,6 @@ export default observer(function ActivityForm() {
         date: Yup.string().required('Date is required').nullable(),
         venue: Yup.string().required(),
         city: Yup.string().required()
-
     })
 
     useEffect(() => {
@@ -75,16 +73,14 @@ export default observer(function ActivityForm() {
                             showTimeSelect
                             timeCaption="time"
                             dateFormat='MMMM d, yyyy h:mm aa'
-
-
                         />
                         <Header content='Location Details' sub color='teal' />
                         <MyTextInput placeholder='City' name='city' />
                         <MyTextInput placeholder='Venue' name='venue' />
-                        <Button 
-                        disabled={isSubmitting || !dirty || !isValid} 
-                        loading={isSubmitting} floated='right' 
-                        positive type='submit' content='Submit' />
+                        <Button
+                            disabled={isSubmitting || !dirty || !isValid}
+                            loading={isSubmitting} floated='right'
+                            positive type='submit' content='Submit' />
                         <Button as={Link} to='/activities' floated='right' type='button' content='Cancel' />
                     </Form>
                 )}

@@ -3,8 +3,6 @@ import React from "react";
 import { Form, Label } from "semantic-ui-react";
 import DatePicker, { ReactDatePickerProps } from 'react-datepicker';
 
-
-
 export default function MyDateInput(props: Partial<ReactDatePickerProps>) {
     const [field, meta, helpers] = useField(props.name!);
     return (
