@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using Domain;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Cryptography;
@@ -17,7 +11,6 @@ namespace API.Services
         public TokenService(IConfiguration config)
         {
             _config = config;
-
         }
 
         public string CreateToken(AppUser user)
@@ -56,7 +49,7 @@ namespace API.Services
             //Get the random number and Get the actual bytes of random number
             rng.GetBytes(randomNumber);
             //pass the new refresh token on the user
-            return new RefreshToken { Token = Convert.ToBase64String(randomNumber)};
+            return new RefreshToken { Token = Convert.ToBase64String(randomNumber) };
         }
 
 
